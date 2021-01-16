@@ -20,6 +20,7 @@ export default function Service() {
                     imgsrc={val.imgSrc}
                     title={val.title}
                     detail={val.det}
+                    linkMore={val.linkMore}
                     key={ind}
                   />
                 })

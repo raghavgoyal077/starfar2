@@ -7,17 +7,13 @@ export default function About() {
   return (
     <>
       <div className='container-fluid about_div'>
-        <div className='one'>
+        <div className='one phone'>
           <div className='mr-5'>
-            <h1
-              className='how'
-            >
-              how starfar works
-            </h1>
+            <h1 className='how'>how starfar works</h1>
             <p className='how_p1'>
               Everything you need to start enjoying brilliant sound.
             </p>
-            <p className='how_p2' style={{ fontSize: '20px' }}>
+            <p className='how_p2'>
               Set up your speaker on your home network to start streaming music.
             </p>
           </div>
@@ -27,55 +23,43 @@ export default function About() {
             className='spk_img spk_img1 img-fluid'
           />
         </div>
-        <div className='two'>
+        <div className='two phone'>
           <img
             src={Speaker2}
             alt='speakers_img'
-            className='spk_img spk_img2 img-fluid'
-            style={{ marginRight: '300px', width: '300px' }}
+            className='spk_img_second spk_img1 img-fluid'
           />
           <div className='ml-5'>
-            <h1
-              className='brilliant'
-              
-            >
-              brilliant sound
-            </h1>
-            <p className='' style={{ fontSize: '20px', fontWeight: 'bold' }}>
+            <h1 className='brilliant how'>brilliant sound</h1>
+            <p className='how_p1' >
               Inventing the future of listening.
             </p>
             <div style={{ lineHeight: '10px', marginTop: '30px' }}>
-              <p className='' style={{ fontSize: '18px' }}>
+              <p className='how_p1'>
                 StarFar creates technology that celebrates sound, continuously
               </p>
-              <p className='mt-0' style={{ fontSize: '18px' }}>
+              <p className='mt-0 how_p2'>
                 refines the listening experience, and connects listeners and
                 creators.
               </p>
             </div>
           </div>
         </div>
-        <div className='three'>
+        <div className='three phone'>
           <div className='mr-5'>
             <h1
-              style={{
-                fontSize: '80px',
-                textTransform: 'capitalize',
-                marginBottom: '90px',
-                borderBottom: '2px solid black',
-                width: 'fit-content',
-              }}
+              className='how'
             >
               make in india
             </h1>
-            <p className='' style={{ fontSize: '20px', fontWeight: 'bold' }}>
+            <p className='how_p1' >
               Ongoing global campaign.
             </p>
             <div style={{ lineHeight: '10px', marginTop: '30px' }}>
-              <p className='' style={{ fontSize: '18px' }}>
+              <p className='how_p1'>
                 Proudly manufacture 'needs' by our own.
               </p>
-              <p className='' style={{ fontSize: '18px' }}>
+              <p className='how_p2'>
                 As manufactured in India, the quality is challangeable.
               </p>
             </div>
@@ -83,8 +67,7 @@ export default function About() {
           <img
             src={Speaker3}
             alt='speakers_img'
-            className='spk3_img spk_img3 img-fluid'
-            style={{ marginLeft: '280px', width: '300px' }}
+            className='spk3_img spk_img_third img-fluid'
           />
         </div>
       </div>

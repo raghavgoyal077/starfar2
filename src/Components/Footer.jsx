@@ -16,8 +16,8 @@ export default function Footer() {
           {/* {' '}
           <CallIcon /> <MailIcon /> <InstagramIcon /> <FacebookIcon />{' '}
           <TwitterIcon />{' '} */}
-          <p style={{ letterSpacing: '1px', color: 'gray' }}>
-            COPYRIGHT © 2020 STARFAR LTD. ALL RIGHTS RESERVED
+          <p>
+            COPYRIGHT © 2021 STARFAR LTD. ALL RIGHTS RESERVED
           </p>
         </div>
       </footer>

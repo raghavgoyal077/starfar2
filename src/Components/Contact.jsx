@@ -10,24 +10,24 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 export default function Contact() {
   return (
     <>
-      <div className='container-fluid cont_div'>
+      <div className='container-fluid cont_div phone'>
         <img src={bgImage} alt='' className='cont_bg' />
         <h1 className='text1'>Get in touch with StarFar Support</h1>
-        <div className='cont_container'>
-          <div className='card' style={{ width: '18rem' }}>
+        <div className='cont_container phone'>
+          <div className='card'>
             <div className='card-body'>
               <h5 className='card-title text-center'>
                 <button
                   type='button'
-                  className='call_btn btn btn-outline-primary'
+                  className='call_btn btn btn-outline-primary my_small how_p1'
                 >
                   <CallIcon /> Call us at 9899462789, 8010055720
                 </button>
               </h5>
-              <h6 className='card-subtitle mb-2 ml-3 mt-3 text-muted text-center'>
+              <h6 className='card-subtitle mb-2 ml-3 mt-3 text-muted text-center my_small'>
                 Monday to Friday 10:00am - 7:00pm IST
               </h6>
-              <p className='card-text text-center text-muted form-control-sm'>
+              <p className='card-text text-center text-muted form-control-sm my_small'>
                 Toll-free number(s) but charges may apply. Check with your
                 provider for more information on dialing toll-free numbers.
               </p>

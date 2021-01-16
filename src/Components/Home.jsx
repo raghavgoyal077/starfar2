@@ -43,7 +43,10 @@ export default function Home() {
             <img src={h2} className='d-block w-100 img-fluid' alt='...' />
             <div className='carousel-caption d-none d-md-block'>
               <h1>Feel The Vibe</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>
+                Music is the language of the spirit. It opens the secret of life
+                bringing peace, abolishing strife.
+              </p>
               <br />
               <NavLink className='home_link' to='/service' exact>
                 Get Started
@@ -55,7 +58,10 @@ export default function Home() {
             <div className='carousel-caption d-none d-md-block'>
               <h1>Make In India</h1>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Make in India' is a LION's step! This initiative on one hand,
+                will increase manufacturing growth, and at the same time, will
+                directly benefit the youth of the nation in the form of
+                employment.
               </p>
               <br />
               <NavLink className='home_link' to='/service' exact>

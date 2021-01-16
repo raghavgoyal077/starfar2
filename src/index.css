@@ -208,6 +208,10 @@ a {
   font-weight: bold;
 }
 
+.how_p2 {
+  font-size: 20px;
+}
+
 .brilliant {
   font-size: 80px;
   text-transform: capitalize;
@@ -220,6 +224,12 @@ a {
   width: 180px;
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
   margin-left: 200px;
+}
+
+.spk_img_second {
+  margin-right: 300px;
+  width: 300px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 .spk3_img {
@@ -273,6 +283,11 @@ a {
   justify-content: center;
 }
 
+.pr-5 p {
+  letter-spacing: 1px;
+  color: gray;
+}
+
 /* ////////////////////////////////    CARD - CSS     /////////////////////////////// */
 
 .sp_img {
@@ -298,23 +313,68 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-  .one {
+  .phone {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column !important;
+    align-content: center !important;
+    justify-content: center !important;
   }
   .how {
-    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
     border: none;
-    text-align: center;
+    align-items: center;
     margin-bottom: 20px;
   }
   .how_p1 {
     font-size: 15px;
+    align-items: center;
+    line-height: normal;
+  }
+  .how_p2 {
+    font-size: 15px;
+    align-items: center;
+    margin: 0px;
+    line-height: normal;
+
   }
   .spk_img1 {
-    width: 80px;
+    margin: 0px ;
+    margin-top: 30px;
+    width: 60px;
+  }
+  .spk_img_second {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    margin-bottom: 50px;
+  }
+  .spk_img_third {
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    margin-top: 40px;
+  }
+  .pr-5 p {
+    font-size: 8px;
+  }
+  .mr-5 {
+    text-align: center;
+  }
+  .ml-5 {
+    margin: 0px !important;
+  }
+  .text1 {
+    font-size: 20px;
+    width: 70%;
+  }
+  .cont_div {
     margin: 0;
+    padding: 0;
+    
+  }
+  .my_small {
+    font-size: smaller;
   }
 }

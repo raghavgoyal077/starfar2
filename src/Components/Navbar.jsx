@@ -15,7 +15,7 @@ export default function Navbar() {
             <nav className='navbar navbar-expand-lg navbar-dark'>
               <div className='container-fluid'>
                 <a className='navbar-brand' href='/'>
-                  <img className='img-fluid' src={logo} alt='logo' />
+                  <img className='img-fluid logo' src={logo} alt='logo' />
                 </a>
                 <button
                   className='navbar-toggler'

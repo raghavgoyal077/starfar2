@@ -234,6 +234,8 @@ a {
 
 .spk3_img {
   animation: glow 2s ease-in-out infinite alternate-reverse both;
+  width: 300px;
+  margin-left: 200px;
 }
 
 @-webkit-keyframes up-down {
@@ -376,5 +378,9 @@ a {
   }
   .my_small {
     font-size: smaller;
+  }
+  .ser1 {
+    border: 1px solid black;
+    width: 80%;
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import bgImage from '../03.jpg';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import CallIcon from '@material-ui/icons/Call';
+//import CallIcon from '@material-ui/icons/Call';
 import MailIcon from '@material-ui/icons/Mail';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -17,12 +17,17 @@ export default function Contact() {
           <div className='card'>
             <div className='card-body'>
               <h5 className='card-title text-center'>
-                <button
-                  type='button'
-                  className='call_btn btn btn-outline-primary my_small how_p1'
+                <a
+                  href='https://instagram.com/starfar_in?igshid=g2upzqwy1tl9'
+                  target='_blank'
                 >
-                  <CallIcon /> Call us at 9899462789, 8010055720
-                </button>
+                  <button
+                    type='button'
+                    className='call_btn btn btn-outline-primary my_small how_p1'
+                  >
+                    <InstagramIcon /> Meet us on Instagram at "starfar_in"
+                  </button>
+                </a>
               </h5>
               <h6 className='card-subtitle mb-2 ml-3 mt-3 text-muted text-center my_small'>
                 Monday to Friday 10:00am - 7:00pm IST

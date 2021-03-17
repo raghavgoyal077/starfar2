@@ -30,11 +30,11 @@ export default function Contact() {
                 </a>
               </h5>
               <h6 className='card-subtitle mb-2 ml-3 mt-3 text-muted text-center my_small'>
-                Monday to Friday 10:00am - 7:00pm IST
+                More Businesses & Consumers Are Joining Every Day.
               </h6>
               <p className='card-text text-center text-muted form-control-sm my_small'>
-                Toll-free number(s) but charges may apply. Check with your
-                provider for more information on dialing toll-free numbers.
+                Engage with us here so that we can reach to
+                your feedback and make ourself better for future.
               </p>
             </div>
           </div>

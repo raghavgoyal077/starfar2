@@ -5,10 +5,10 @@ import five_one from '../five_one.jpg';
 import five_two from '../five_two.jpg';
 import five_three from '../five_three.jpg';
 import star_1 from '../star_1.jpg';
-import star_2 from '../star_2.png';
-import star_3 from '../star_3.png';
-import star_4 from '../star_4.png';
-import star_5 from '../star_5.png';
+import star_2 from '../star_2.jpg';
+import star_3 from '../star_3.jpg';
+import star_4 from '../star_4.jpg';
+import star_5 from '../star_5.jpg';
 
 const Sdata = [
   {

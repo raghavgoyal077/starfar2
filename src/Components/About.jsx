@@ -1,6 +1,6 @@
 import React from 'react';
 import Speaker from '../spks.png';
-import Speaker2 from '../spks2.png';
+import Speaker2 from '../spks2.jpg';
 import Speaker3 from '../spks3.png';
 
 export default function About() {
